@@ -29,4 +29,11 @@ The content of reference-type objects.
 Anything structured inside a reference-type object.
 
 # Windows Forms Example
+
+        Size s = new Size (100, 100);          // struct = value type
+        Font f = new Font (“Arial”,10);        // class = reference type
+        Form myForm = new Form();
+        myForm.Size = s;
+        myForm.Font = f;
+
 <image src='image.png' width='400px'>
