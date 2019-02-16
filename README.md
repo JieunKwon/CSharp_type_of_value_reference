@@ -29,4 +29,4 @@ The content of reference-type objects.
 Anything structured inside a reference-type object.
 
 # Windows Forms Example
-<image src='image.png'>
+<image src='image.png' width='200px'>
